@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <center>
+            <button class="boton" onclick="generar();">Generar Aleatorios</button>
+            <button class="boton" onclick="maximo();">Maximo</button>
+            <button class="boton" onclick="minimo();">Minimo</button>
+            <button class="boton" onclick="graficar();">Graficar</button>
+            <button class="boton" onclick="vaciar()">Limpiar</button>
+            <button class="boton" onclick="burbuja();">Ordenar Burbuja</button>
+            <button class="boton" onclick="ordenar();">Ordenar Sort</button>
+            <button class="boton" onclick="compuerta();">Compuertas</button>
+            <br>
+            <div class="valor" id="valores"></div>
+        </center>
+    </div>
+    <div class="compuertas" id ="compuertas">
+
+    </div>
+    <!-- partial:index.partial.html -->
+    <div class="chart" id ="resultados"></div>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <!--<div class="chart"></div>
+    <script src="https://d3js.org/d3.v3.min.js"  charset="utf-8"></script> -->
+    <!-- partial -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

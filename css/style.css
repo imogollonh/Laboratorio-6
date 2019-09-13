@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 200%;
+  text-align: center;
+}
+
+body{
+    margin: 0;
+    background-color: lightslategray;
+}
+
+.numeros{
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 150%;
+}
+
+.boton{
+    border-radius: 75px;
+    display: block;
+    margin: 0 auto;
+    font-size: 100%;
+    display: inline;
+}
+
+.chart div {
+    font: 10px sans-serif;
+    background-color: black;
+    text-align: right;
+    /*
+    padding: 3px;
+    margin: 1px;
+    */
+    padding: 0.6%;
+    margin: 0.2%;
+    color: white;
+  }
+
+.valor{
+    margin-left: 70%;
+    background-color: aquamarine;
+    display: block;
+    margin: 0 auto;
+    font-size: 100%;
+    background-size: 5px;
+    width: 20%;
+    text-align: center;
+    border-radius: 75px;
+}
+
+.compuertas{
+    margin-left: 90%;
+    background-color: aquamarine;
+    margin: 0 auto;
+    font-size: 100%;
+    width: 30%;
+    text-align: center;
+    border-radius: 40px;
+}
